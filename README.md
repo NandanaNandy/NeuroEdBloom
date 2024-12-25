@@ -20,5 +20,5 @@ Scalability: Handles large volumes of question papers efficiently.
 
 Cloning the Repository
 To clone this repository, use the following command:
-git clone https://github.com/NandanaNandy/Project-3.git 
+git clone https://github.com/NandanaNandy/NeuroEdBloom.git 
 
