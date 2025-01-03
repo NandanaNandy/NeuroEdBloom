@@ -65,8 +65,8 @@ def process_images_in_folder(folder_path, save_bbox_images=False, bbox_image_fol
                 )
 
                 # Extract and log text
-                extracted_text = "\n".join([each.text for each in predictions[0].text_lines])
-                logger.info(f"Extracted Text from {filename}:\n**Page {filename}**:\n{extracted_text}")
+                extracted_text = " ".join([each.text for each in predictions[0].text_lines])
+                logger.info(f"Extracted Text from {filename}:\n{extracted_text}")
 
                 if save_bbox_images:
                     # Draw bounding boxes and save image
@@ -83,5 +83,5 @@ def process_images_in_folder(folder_path, save_bbox_images=False, bbox_image_fol
 
 if __name__ == "__main__":
     folder_path = "output_images"
-    bbox_image_folder = "bbox_images"  # Change this to a different folder
+    bbox_image_folder = "bbox_images"
     process_images_in_folder(folder_path, save_bbox_images=True, bbox_image_folder=bbox_image_folder)

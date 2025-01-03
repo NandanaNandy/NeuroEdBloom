@@ -36,7 +36,7 @@ def main(pdf_path, output_dir="output_images", dpi=200, poppler_path=r"D:\Progra
         image_start_time = time.time()
         image_tensor = transform(image)
         output_image = transforms.ToPILImage()(image_tensor.cpu())
-        output_image.save(os.path.join(output_dir, 'bbox_page1.png'), quality=95)
+        output_image.save(os.path.join(output_dir, f'bbox_page{i + 1}.png'), quality=95)
         print(f"Saved page {i + 1} as image")
         return time.time() - image_start_time
 
