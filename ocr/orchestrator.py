@@ -2,12 +2,15 @@ import subprocess
 import sys
 import time
 
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: python orchestrator.py <pdf_path>")
-        sys.exit(1)
+DEFAULT_PDF_PATH = r"C:\Users\MuraliDharan S\OneDrive\Desktop\desktop\project\documents\cia_2 - sem_5 - Business Analytics.pdf"
 
-    pdf_path = sys.argv[1]
+def main():
+    pdf_path = DEFAULT_PDF_PATH
+    if len(sys.argv) == 2:
+        pdf_path = sys.argv[1]
+    elif len(sys.argv) > 2:
+        print("Usage: python orchestrator.py [<pdf_path>]")
+        sys.exit(1)
 
     # Step 1: Run poppler.py with the PDF path
     start_time = time.time()
