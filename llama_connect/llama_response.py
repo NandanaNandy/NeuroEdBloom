@@ -104,6 +104,8 @@ prompt = (
     "6.dont give the question numbers\n\n"
     "if the question is not clear or not available in the text please mention it as 'Question not clear or not available in the text'\n\n"
     "if the marks not clear or not available in the text please mention it as 'Marks not clear or not available in the text'\n\n"
+    "include the question numbers also"
+    "include the co 's also"
     f"OCR Text:\n{ocr_text}"
 )
 
