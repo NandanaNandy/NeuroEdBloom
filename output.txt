@@ -1,0 +1,29 @@
+The image shows a student answer evaluation form for the course CCS342 - DEVOPS at Karpagam Institute of Technology. The form is used to evaluate the student's performance in the course.
+
+Here are the details extracted from the form:
+
+*   **Register Number:** 7 2 1 2 2 1 2 4 3 0 0 2
+*   **Date and Session:** 29-04-2024 F EN
+*   **Course Code and Name:** CCS342 - DEVOPS
+*   **Year/Department:** III / AI & DS
+*   **Section:** Not mentioned
+*   **Q.No., Relevant CO, and Marks:**
+
+    *   Q.No. 1: Relevant CO - 03, Marks - 7
+    *   Q.No. 2: Relevant CO - 03, Marks - 1
+    *   Q.No. 3: Relevant CO - 04, Marks - 0
+    *   Q.No. 4: Relevant CO - 04, Marks - 2
+    *   Q.No. 5: Relevant CO - 04, Marks - 0
+    *   Q.No. 6: Relevant CO - 04, Marks - 0
+    *   Q.No. 7: Relevant CO - 05, Marks - 2
+    *   Q.No. 8: Relevant CO - 05, Marks - 0
+    *   Q.No. 9: Relevant CO - 05, Marks - 2
+    *   Q.No. 10: Relevant CO - 05, Marks - 0
+    *   Q.No. 11: Relevant CO - a, Marks - 11
+    *   Q.No. 12: Relevant CO - a, Marks - 12
+    *   Q.No. 13: Relevant CO - a, Marks - 13
+    *   Q.No. 14: Relevant CO - b, Marks - 14
+    *   Q.No. 15: Relevant CO - b, Marks - 15
+    *   Q.No. 16: Relevant CO - b, Marks - 16
+
+The total marks obtained by the student are 62 out of 54.
